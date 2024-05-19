@@ -17,3 +17,8 @@ vim.opt.ignorecase = true
 vim.opt.wrap = false
 vim.opt.clipboard = "unnamedplus"
 vim.cmd("set colorcolumn=81")
+
+-- neotree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.opt.termguicolors = true
