@@ -41,8 +41,8 @@ return {
 			vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, opts)
 			vim.keymap.set('n', 'gr', vim.lsp.buf.references, opts)
 			vim.keymap.set('n', '<space>f', vim.diagnostic.open_float, opts)
-			vim.keymap.set('n', 'pd', vim.diagnostic.goto_prev, opts)
-			vim.keymap.set('n', 'Pd', vim.diagnostic.goto_next, opts)
+--			vim.keymap.set('n', 'pd', vim.diagnostic.goto_prev, opts)
+--			vim.keymap.set('n', 'Pd', vim.diagnostic.goto_next, opts)
 			vim.keymap.set({ 'n' }, '<leader>ca', vim.lsp.buf.code_action, opts)
 		end
 	}
