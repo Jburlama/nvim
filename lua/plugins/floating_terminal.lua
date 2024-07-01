@@ -1,5 +1,5 @@
 return {
-"voldikss/vim-floaterm",
+	"voldikss/vim-floaterm",
 
 	config = function ()
 		vim.keymap.set("n", "<C-n>", ":FloatermNew --height=1.0 --width=1.0 <Cr>", {})
