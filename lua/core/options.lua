@@ -1,6 +1,6 @@
 vim.opt.backup = false
 vim.opt.swapfile = false
--- vim.opt.scrolloff = 999
+vim.opt.scrolloff = 8 -- mause dont go all the way when scrooling
 vim.opt.mouse = "a"
 vim.opt.relativenumber = true
 vim.opt.number = true
