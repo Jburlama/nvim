@@ -10,8 +10,8 @@ return {
 		vim.keymap.set("n", "<S-m>",":lua require('harpoon.ui').nav_file(1) <Cr>", {})
 		vim.keymap.set("n", "<S-h>",":lua require('harpoon.ui').nav_file(2) <Cr>", {})
 		vim.keymap.set("n", "<S-l>",":lua require('harpoon.ui').nav_file(3) <Cr>", {})
-		vim.keymap.set("n", "<C-o>",":lua require('harpoon.ui').nav_file(4) <Cr>", {})
-		vim.keymap.set("n", "<C-i>",":lua require('harpoon.ui').nav_file(5) <Cr>", {})
+		vim.keymap.set("n", "<C-i>",":lua require('harpoon.ui').nav_file(4) <Cr>", {})
+		-- vim.keymap.set("n", "<C-o>",":lua require('harpoon.ui').nav_file(4) <Cr>", {})
 		-- vim.keymap.set("n", "<S-l>",":lua require('harpoon.ui').nav_next()  <Cr>", {})
 		-- vim.keymap.set("n", "<S-j>",":lua require('harpoon.ui').nav_prev()  <Cr>", {})
 	end
